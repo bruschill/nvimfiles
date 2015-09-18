@@ -112,14 +112,17 @@ set wildignore+=*.swp,*~,._*
 "listchars
 set nolist
 
-set dir=~/.vim/.temp
+set dir=~/.nvim/.temp
 
 set completeopt-=preview
 
-try
-  set shortmess+=c
-catch /E539: Illegal character/
-endtry
-
 "setting tags directory
-set tags=~/.vim/tags
+set tags=~/.nvim/tags
+
+for f in split(glob('~/.nvim/config/general/*.vim'), '\n')
+  exe 'source' f
+endfor
+
+for f in split(glob('~/.nvim/config/plugin/*.vim'), '\n')
+  exe 'source' f
+endfor

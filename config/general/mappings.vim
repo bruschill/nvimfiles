@@ -2,8 +2,8 @@
 let mapleader=","
 
 "vimrc edit/reload mappings
-nmap <silent> <Leader>ve :e ~/.vimrc<CR>
-nmap <silent> <Leader>vr :so ~/.vimrc<CR>
+nmap <silent> <Leader>ve :e ~/.nvimrc<CR>
+nmap <silent> <Leader>vr :so ~/.nvimrc<CR>
 
 "tab settings
 nmap <Leader>tn :tabnew<CR>
