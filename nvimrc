@@ -1,11 +1,73 @@
-filetype plugin indent on
+call plug#begin('~/.nvim/plugged')
+
+" GENERAL
+Plug 'altercation/vim-colors-solarized'
+Plug 'NLKNguyen/papercolor-theme'
+
+Plug 'Shougo/vimproc.vim', { 'do': 'make clean && make' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --gocode-completer' }
+
+Plug 'xolox/vim-easytags'
+Plug 'xolox/vim-misc'
+Plug 'tpope/vim-git'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-eunuch'
+Plug 'scrooloose/syntastic'
+Plug 'rking/ag.vim'
+Plug 'tomtom/tcomment_vim'
+Plug 'regedarek/ZoomWin'
+Plug 'bling/vim-airline'
+
+" CTRL-P
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'nixprime/cpsm', { 'do': './install.sh' }
+
+" TMUX
+Plug 'edkolev/tmuxline.vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+
+" SYNTAX
+" ruby
+Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
+Plug 'tpope/vim-rails', { 'for': ['ruby', 'eruby'] }
+Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
+Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
+
+" javascript
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install', 'for': ['javascript', 'html', 'eruby'] }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html'] }
+Plug 'othree/yajs.vim', { 'for': ['javascript', 'html'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'html'] }
+Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
+
+" go
+func! BuildVimGo(info)
+  if a:info.status == 'installed'
+    !vim -c "GoInstallBinaries" -c "qa!"
+  else
+    !vim -c "GoInstallBinaries" -c "qa!"
+  endif
+endf
+Plug 'fatih/vim-go', { 'for': ['go'] }
+
+" markup
+Plug 'othree/html5.vim', { 'for': ['html', 'javascript', 'eruby'] }
+Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css', 'eruby'] }
+Plug 'plasticboy/vim-markdown', { 'for': ['mkd', 'markdown', 'mkd.markdown'] }
+Plug 'cakebaker/scss-syntax.vim', { 'for': ['scss'] }
+
+" other
+Plug 'solarnz/thrift.vim', { 'for': ['thrift'] }
+
+call plug#end()
 
 set t_Co=256
-syntax on
 set background=dark
 color solarized
-
-set guifont=Source\ Code\ Pro:h12
 
 "general
 set mouse=""
