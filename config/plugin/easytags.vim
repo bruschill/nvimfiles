@@ -11,7 +11,9 @@ let g:easytags_languages = {
 
 let g:easytags_async=1
 
-let g:easytags_by_filetype='~/.vim/tags'
+let g:easytags_by_filetype='~/.nvim/tags'
+
+let g:easytags_include_members = 1
 
 "don't automatically update tags when pausing for a few seconds
 let g:easytags_on_cursorhold = 0
