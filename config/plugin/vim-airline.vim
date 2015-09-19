@@ -10,6 +10,11 @@ let g:airline_detect_modified=1
 "enable paste detection
 let g:airline_detect_paste=1
 
+"enable tabline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#show_tab_type = 0
+
 "enable syntastic integration
 let g:airline#extensions#syntastic#enabled = 1
 
