@@ -25,3 +25,5 @@ map <Leader>= <C-w>=
 nmap <silent> <C-b>n :bn<cr>
 nmap <silent> <C-b>p :bp<cr>
 nmap <silent> <C-b>l :bl<cr>
+nmap <silent> <C-b>f :bf<cr>
+nmap <silent> <C-b>d :bd<cr>
