@@ -9,6 +9,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --gocode-completer' }
 
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
+Plug 'jeetsukumaran/vim-buffergator'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
