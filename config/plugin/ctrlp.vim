@@ -7,7 +7,7 @@ let g:ctrlp_switch_buffer = 'Et'
 
 " enable per-session cashing
 let g:ctrlp_use_caching = 1
-let g:ctrlp_cache_dir = $HOME.'/.vim/.ctrlp'
+let g:ctrlp_cache_dir = $HOME.'/.nvim/.ctrlp'
 
 " persist cache
 let g:ctrlp_clear_cache_on_exit = 1
