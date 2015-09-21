@@ -22,8 +22,10 @@ nmap <leader>hs :set hlsearch! hlsearch?<CR>
 map <Leader>= <C-w>=
 
 " buffer movement
+nmap <silent> <leader>bo :enew<cr>
 nmap <silent> <leader>bn :bn<cr>
 nmap <silent> <leader>bp :bp<cr>
 nmap <silent> <leader>bl :bl<cr>
 nmap <silent> <leader>bf :bf<cr>
+nmap <silent> <leader>bu :bun<cr>
 nmap <silent> <leader>bd :bd<cr>
