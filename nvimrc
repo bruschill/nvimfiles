@@ -5,7 +5,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'Shougo/vimproc.vim', { 'do': 'make clean && make' }
-Plug 'Valloric/YouCompleteMe', { 'do': './install.sh --gocode-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
