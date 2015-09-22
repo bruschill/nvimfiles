@@ -29,3 +29,6 @@ nmap <silent> <leader>bl :bl<cr>
 nmap <silent> <leader>bf :bf<cr>
 nmap <silent> <leader>bu :bun<cr>
 nmap <silent> <leader>bd :bd<cr>
+
+" exit terminal mode
+tnoremap <Esc> <C-\><C-n>
