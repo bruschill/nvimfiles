@@ -7,6 +7,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'Shougo/vimproc.vim', { 'do': 'make clean && make' }
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 
+Plug 'Shougo/unite.vim'
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 Plug 'jeetsukumaran/vim-buffergator'
@@ -24,8 +25,8 @@ Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
 
 " CTRL-P
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'nixprime/cpsm', { 'do': './install.sh' }
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'nixprime/cpsm', { 'do': './install.sh' }
 
 " TMUX
 Plug 'edkolev/tmuxline.vim'

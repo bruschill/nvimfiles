@@ -6,7 +6,9 @@ nmap <silent> <Leader>ve :e ~/.nvimrc<CR>
 nmap <silent> <Leader>vr :so ~/.nvimrc<CR>
 
 "tab settings
-nmap <Leader>tn :tabnew<CR>
+nmap <Leader>to :tabnew<CR>
+nmap <Leader>tn :tabneext<CR>
+nmap <Leader>tp :tabprevious<CR>
 nmap <Leader>tc :tabclose<CR>
 
 "mapping enter to clear search when pressed
