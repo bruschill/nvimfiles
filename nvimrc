@@ -24,10 +24,6 @@ Plug 'tomtom/tcomment_vim'
 Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
 
-" CTRL-P
-" Plug 'ctrlpvim/ctrlp.vim'
-" Plug 'nixprime/cpsm', { 'do': './install.sh' }
-
 " TMUX
 Plug 'edkolev/tmuxline.vim'
 Plug 'christoomey/vim-tmux-navigator'
