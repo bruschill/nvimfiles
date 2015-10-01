@@ -10,7 +10,6 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 Plug 'Shougo/unite.vim'
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
-Plug 'jeetsukumaran/vim-buffergator'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-fugitive'
