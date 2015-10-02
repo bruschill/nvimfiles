@@ -20,6 +20,7 @@ call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,file/new,
 " fuzzy-matching
 let g:unite_source_rec_async_command = ["ag", "--vimgrep", "--follow", "--nocolor", "--nogroup", "-g", ""]
 call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,buffer,grep', 'sorters', 'sorter_selecta')
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " grep settings
 let g:unite_source_grep_command = 'ag'
