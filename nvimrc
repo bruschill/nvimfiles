@@ -119,6 +119,9 @@ set completeopt-=preview
 "setting tags directory
 set tags=~/.nvim/tags
 
+" add fzf to runtime path
+set rtp +=/usr/local/opt/fzf
+
 for f in split(glob('~/.nvim/config/general/*.vim'), '\n')
   exe 'source' f
 endfor
