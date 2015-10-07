@@ -65,7 +65,6 @@ Plug 'solarnz/thrift.vim', { 'for': ['thrift'] }
 
 call plug#end()
 
-set t_Co=256
 set background=dark
 color solarized
 
@@ -78,8 +77,7 @@ set cursorline
 set switchbuf=useopen
 set backspace=indent,eol,start
 set timeout
-set timeoutlen=350
-set ttimeoutlen=200
+set timeoutlen=450
 
 "tab settings
 set ai
