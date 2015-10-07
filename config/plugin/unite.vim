@@ -28,7 +28,7 @@ let g:unite_source_grep_default_opts = '-i --line-numbers --nocolor --nogroup --
 let g:unite_source_grep_recursive_opt = ''
 
 " mappings
-nnoremap <C-p> :Unite -start-insert buffer file_rec/neovim:!<CR>
+nnoremap <C-p> :Unite -start-insert file_rec/neovim:!<CR>
 nnoremap <leader>f :Unite -truncate-width=25 grep:!<cr>
 
 autocmd FileType unite call s:unite_settings()
