@@ -11,7 +11,8 @@ let g:unite_force_overwrite_statusline = 0
 
 " caching
 let g:unite_data_directory = '~/.nvim/.unite_cache'
-let g:unite_source_rec_min_cache_files = 1
+let g:unite_source_rec_min_cache_files = 10
+let g:unite_source_rec_max_cache_files = 40000
 
 " ignores
 call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,file/new,buffer,grep',
@@ -19,7 +20,7 @@ call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,file/new,
 
 " fuzzy-matching
 let g:unite_source_rec_async_command = ["ag", "--vimgrep", "--follow", "--nocolor", "--nogroup", "-g", ""]
-call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,buffer,grep', 'sorters', 'sorter_selecta')
+call unite#custom#source('file,file_rec,file_rec/async,file_rec/neovim,buffer,grep', 'sorters', 'sorter_rank')
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " grep settings
