@@ -18,7 +18,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'scrooloose/syntastic'
-Plug 'rking/ag.vim'
 Plug 'tomtom/tcomment_vim'
 Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
@@ -117,8 +116,8 @@ set completeopt-=preview
 "setting tags directory
 set tags=~/.nvim/tags
 
-" add fzf to runtime path
-set rtp +=/usr/local/opt/fzf
+set ffs=unix
+set shellslash
 
 for f in split(glob('~/.nvim/config/general/*.vim'), '\n')
   exe 'source' f
