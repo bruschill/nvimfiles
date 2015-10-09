@@ -7,7 +7,6 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'Shougo/vimproc.vim', { 'do': 'make clean && make' }
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 
-Plug 'Shougo/unite.vim'
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 Plug 'majutsushi/tagbar'
@@ -21,6 +20,10 @@ Plug 'scrooloose/syntastic'
 Plug 'tomtom/tcomment_vim'
 Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
+
+" CTRL-P
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'nixprime/cpsm', { 'do': './install.sh' }
 
 " TMUX
 Plug 'edkolev/tmuxline.vim'
@@ -37,10 +40,10 @@ Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 
 " javascript
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install', 'for': ['javascript', 'html', 'eruby'] }
-Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'html'] }
-Plug 'othree/yajs.vim', { 'for': ['javascript', 'html'] }
-Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'html'] }
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
+Plug 'pangloss/vim-javascript'
+Plug 'othree/yajs.vim'
+Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 
 " go
@@ -115,9 +118,6 @@ set completeopt-=preview
 
 "setting tags directory
 set tags=~/.nvim/tags
-
-set ffs=unix
-set shellslash
 
 for f in split(glob('~/.nvim/config/general/*.vim'), '\n')
   exe 'source' f
