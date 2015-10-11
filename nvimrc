@@ -47,13 +47,6 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 
 " go
-func! BuildVimGo(info)
-  if a:info.status == 'installed'
-    !vim -c "GoInstallBinaries" -c "qa!"
-  else
-    !vim -c "GoInstallBinaries" -c "qa!"
-  endif
-endf
 Plug 'fatih/vim-go', { 'for': ['go'] }
 
 " markup
