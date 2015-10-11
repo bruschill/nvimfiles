@@ -3,6 +3,7 @@ call plug#begin('~/.nvim/plugged')
 " GENERAL
 Plug 'altercation/vim-colors-solarized'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'rking/ag.vim'
 
 Plug 'Shougo/vimproc.vim', { 'do': 'make clean && make' }
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }

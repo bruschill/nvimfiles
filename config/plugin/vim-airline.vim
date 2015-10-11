@@ -12,8 +12,6 @@ let g:airline_detect_modified=1
 "enable paste detection
 let g:airline_detect_paste=1
 
-let g:airline_extensions = ['syntastic', 'tabline', 'tmuxline', 'whitespace']
-
 "tabline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
