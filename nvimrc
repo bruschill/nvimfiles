@@ -21,11 +21,11 @@ Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
 
 " FZF
-" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes n \| ./install' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes n \| ./install' }
 
 " CTRL-P
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'nixprime/cpsm', { 'do': './install.sh' }
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'nixprime/cpsm', { 'do': './install.sh' }
 
 " TMUX
 Plug 'edkolev/tmuxline.vim'

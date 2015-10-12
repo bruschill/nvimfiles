@@ -1,7 +1,7 @@
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts=1
 
-let g:airline_extensions = ['ctrlp', 'syntastic', 'tabline', 'tmuxline', 'whitespace']
+let g:airline_extensions = ['syntastic', 'tabline', 'tmuxline', 'whitespace']
 
 "turn off whitespace detection
 let g:airline#extensions#whitespace#enabled=0
@@ -26,9 +26,6 @@ let g:airline#extensions#syntastic#enabled = 1
 
 "enable tmuxline integration
 let g:airline#extensions#tmuxline#enabled = 1
-
-"ctrlp
-let g:airline#extensions#ctrlp#show_adjacent_modes = 0
 
 "small section tweaks
 let g:airline_section_y=''
