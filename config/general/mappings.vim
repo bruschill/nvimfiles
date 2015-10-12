@@ -56,6 +56,3 @@ nmap <leader>hs :set hlsearch! hlsearch?<cr>
 
 " Adjust viewports to the same size
 map <Leader>= <C-w>=
-
-" exit terminal mode
-tnoremap <Esc> <C-\><C-n>
