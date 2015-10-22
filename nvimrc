@@ -38,10 +38,10 @@ Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 
 " javascript
+Plug 'othree/yajs.vim', { 'for': ['javascript'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
+Plug 'gavocanov/vim-js-indent', { 'for': ['javascript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'pangloss/vim-javascript'
-Plug 'othree/yajs.vim'
-Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 
 " go
