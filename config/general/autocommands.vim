@@ -14,6 +14,9 @@ au FileType vim setlocal et sta ts=2 sw=2 sts=2
 " quickfix window
 autocmd FileType qf wincmd J
 
+" nvim terminal
+au BufEnter * if &buftype == 'terminal' | :startinsert | endif
+
 " misc
 func! DeleteTrailingWhitespace()
   exe "normal mz"
@@ -21,4 +24,3 @@ func! DeleteTrailingWhitespace()
   exe "normal `z"
 endfunc
 autocmd BufWrite * :call DeleteTrailingWhitespace()
-
