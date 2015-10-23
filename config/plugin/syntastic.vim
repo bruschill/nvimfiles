@@ -5,3 +5,6 @@ let g:syntastic_enable_baloons=0
 
 " javascript
 let g:syntastic_javascript_checkers=['jshint']
+
+" golang
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
