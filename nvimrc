@@ -21,7 +21,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'NLKNguyen/papercolor-theme'
 
 " FZF
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes n \| ./install' }
+Plug 'junegunn/fzf.vim'
 
 " TMUX
 Plug 'edkolev/tmuxline.vim'

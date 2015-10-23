@@ -1,4 +1,4 @@
-let g:fzf_layout = { 'window': 'enew', 'down': '20%' }
+let g:fzf_layout = { 'window': 'enew', 'down': '~20%' }
 
 let g:fzf_nvim_statusline = 0
 
