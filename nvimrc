@@ -53,9 +53,6 @@ Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css', 'eruby'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['mkd', 'markdown', 'mkd.markdown'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['scss'] }
 
-" other
-Plug 'solarnz/thrift.vim', { 'for': ['thrift'] }
-
 call plug#end()
 
 set background=dark
