@@ -1,12 +1,8 @@
 call plug#begin('~/.nvim/plugged')
 
 " GENERAL
-Plug 'altercation/vim-colors-solarized'
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'rking/ag.vim'
-
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
-
+Plug 'rking/ag.vim'
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 Plug 'majutsushi/tagbar'
@@ -19,6 +15,10 @@ Plug 'scrooloose/syntastic'
 Plug 'tomtom/tcomment_vim'
 Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
+
+" COLORS
+Plug 'altercation/vim-colors-solarized'
+Plug 'NLKNguyen/papercolor-theme'
 
 " FZF
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes n \| ./install' }
@@ -59,7 +59,7 @@ Plug 'solarnz/thrift.vim', { 'for': ['thrift'] }
 call plug#end()
 
 set background=dark
-color solarized
+colorscheme solarized
 
 "general
 set mouse=""
