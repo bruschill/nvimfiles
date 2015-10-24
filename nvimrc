@@ -2,7 +2,6 @@ call plug#begin('~/.nvim/plugged')
 
 " GENERAL
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
-Plug 'rking/ag.vim'
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 Plug 'majutsushi/tagbar'
