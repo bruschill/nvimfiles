@@ -1,4 +1,4 @@
-call plug#begin('~/.nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
@@ -40,8 +40,8 @@ Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 Plug 'othree/yajs.vim', { 'for': ['javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
 Plug 'gavocanov/vim-js-indent', { 'for': ['javascript'] }
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 
 " go
 Plug 'fatih/vim-go', { 'for': ['go'] }
@@ -99,19 +99,19 @@ set wildignore+=*.swp,*~,._*
 "listchars
 set nolist
 
-set dir=~/.nvim/.temp
-
 set completeopt-=preview
 
 "setting tags directory
-set tags=~/.nvim/tags
+set tags=~/.config/nvim/tags
 
 set rtp+=/usr/local/opt/fzf
 
-for f in split(glob('~/.nvim/config/general/*.vim'), '\n')
+set backupdir=~/.local/share/nvim/swap
+
+for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
   exe 'source' f
 endfor
 
-for f in split(glob('~/.nvim/config/plugin/*.vim'), '\n')
+for f in split(glob('~/.config/nvim/config/plugin/*.vim'), '\n')
   exe 'source' f
 endfor

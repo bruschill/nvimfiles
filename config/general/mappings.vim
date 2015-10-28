@@ -2,8 +2,8 @@
 let mapleader=","
 
 "vimrc edit/reload mappings
-nmap <silent> <Leader>ve :e ~/.nvimrc<cr>
-nmap <silent> <Leader>vr :so ~/.nvimrc<cr>
+nmap <silent> <Leader>ve :e ~/.config/nvim/init.vim<cr>
+nmap <silent> <Leader>vr :so ~/.config/nvim/init.vim<cr>
 
 " buffer manipulation
 nmap <silent> <leader>bo :enew<cr>
