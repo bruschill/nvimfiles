@@ -1,6 +1,5 @@
 "git
 au FileType gitcommit setlocal et sta ts=2 sw=2 sts=2
-au FileType gitcommit startinsert
 
 "go
 au FileType go setlocal et ts=4 sw=4 sts=4

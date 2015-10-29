@@ -17,13 +17,11 @@ Plug 'bling/vim-airline'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
-Plug 'NLKNguyen/papercolor-theme'
 
 " FZF
 Plug 'junegunn/fzf.vim'
 
 " TMUX
-Plug 'edkolev/tmuxline.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tmux-plugins/vim-tmux-focus-events'
