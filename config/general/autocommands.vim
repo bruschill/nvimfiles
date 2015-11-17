@@ -23,3 +23,6 @@ func! DeleteTrailingWhitespace()
   exe "normal `z"
 endfunc
 autocmd BufWrite * :call DeleteTrailingWhitespace()
+
+" automatically reload file if changed
+autocmd BufEnter,FocusGained * checktime
