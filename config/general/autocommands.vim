@@ -1,3 +1,6 @@
+"neomake
+au! BufWritePost * Neomake
+
 "git
 au FileType gitcommit setlocal et sta ts=2 sw=2 sts=2
 
