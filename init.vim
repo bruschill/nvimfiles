@@ -17,6 +17,7 @@ Plug 'bling/vim-airline'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
+Plug 'lovelock/vim-material-theme'
 
 " FZF
 Plug 'junegunn/fzf.vim'
