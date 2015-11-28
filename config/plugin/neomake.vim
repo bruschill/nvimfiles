@@ -1,1 +1,1 @@
-let g:neomake_open_list = 0
+let g:neomake_open_list = 2
