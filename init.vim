@@ -38,6 +38,7 @@ Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 " javascript
 Plug 'othree/yajs.vim', { 'for': ['javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
+Plug 'moll/vim-node', { 'for': ['javascript'] }
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'digitaltoad/vim-jade'
