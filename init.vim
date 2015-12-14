@@ -41,7 +41,7 @@ Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
 Plug 'moll/vim-node', { 'for': ['javascript'] }
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'digitaltoad/vim-jade'
+Plug 'digitaltoad/vim-jade', { 'for': ['jade'] }
 
 " go
 Plug 'fatih/vim-go', { 'for': ['go'] }
