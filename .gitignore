@@ -5,3 +5,4 @@ plugged/*
 tags/*
 shada/*
 init.vim
+autoload/plug.vim.old

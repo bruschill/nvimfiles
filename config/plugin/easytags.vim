@@ -6,13 +6,7 @@ let g:easytags_languages = {
 \    'cmd': g:easytags_cmd,
 \    'stdout_opt': '-f-',
 \    'fileoutput_opt': '--fields=+l'
-\ },
-\ 'javascript': {
-\    'cmd': 'jsctags',
-\    'fileoutput_opt': '-f',
-\    'stdout_opt': '-f-',
-\    'recurse_flag': '-R'
-\ }
+  \}
 \}
 
 let g:easytags_async=1
