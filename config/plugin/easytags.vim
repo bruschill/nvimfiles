@@ -4,9 +4,14 @@ let g:easytags_opts = ['--languages=css,go,javascript,json,ruby,vim', '--exclude
 let g:easytags_languages = {
 \ 'language': {
 \    'cmd': g:easytags_cmd,
-\    'args':[],
 \    'stdout_opt': '-f-',
 \    'fileoutput_opt': '--fields=+l'
+\ },
+\ 'javascript': {
+\    'cmd': 'jsctags',
+\    'fileoutput_opt': '-f',
+\    'stdout_opt': '-f-',
+\    'recurse_flag': '-R'
 \ }
 \}
 
