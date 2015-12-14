@@ -1,6 +1,6 @@
 "general config
 let g:easytags_cmd='/usr/local/bin/ctags'
-let g:easytags_opts = ['--languages=css,go,html,javascript,json,ruby,vim', '--exclude=tmp', '--exclude=temp', '--exclude=log']
+let g:easytags_opts = ['--languages=css,go,javascript,json,ruby,vim', '--exclude=node_modules', '--exclude=tmp', '--exclude=temp', '--exclude=log']
 let g:easytags_languages = {
 \ 'language': {
 \    'cmd': g:easytags_cmd,

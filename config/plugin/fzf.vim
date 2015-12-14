@@ -1,3 +1,5 @@
+let $FZF_DEFAULT_COMMAND = 'ag -l --ignore "node_modules" -g ""'
+
 let g:fzf_layout = { 'down': '20%' }
 
 let g:fzf_nvim_statusline = 0
