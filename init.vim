@@ -1,7 +1,12 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
+" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
+Plug 'Shougo/deoplete.nvim'
+call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete.py', [
+      \ {'sync': 1, 'name': 'DeopleteInitializePython', 'type': 'command', 'opts': {}},
+     \ ])
+
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
 Plug 'tpope/vim-git'
