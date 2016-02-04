@@ -18,6 +18,7 @@ Plug 'benekastah/neomake'
 Plug 'tomtom/tcomment_vim'
 Plug 'regedarek/ZoomWin'
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
