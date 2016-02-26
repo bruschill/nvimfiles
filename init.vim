@@ -3,9 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 " GENERAL
 " Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 Plug 'Shougo/deoplete.nvim'
-call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete.py', [
-      \ {'sync': 1, 'name': 'DeopleteInitializePython', 'type': 'command', 'opts': {}},
-     \ ])
 
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
@@ -112,6 +109,11 @@ set tags=~/.nvim/tags
 set rtp+=/usr/local/opt/fzf
 
 set backupdir=~/.local/share/nvim/swap
+
+" deoplete
+call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete.py', [
+      \ {'sync': 1, 'name': '_deoplete', 'opts': {}, 'type': 'function'},
+     \ ])
 
 for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
   exe 'source' f
