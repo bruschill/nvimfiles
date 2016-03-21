@@ -53,6 +53,7 @@ Plug 'othree/html5.vim', { 'for': ['html', 'javascript', 'eruby'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css', 'eruby'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['mkd', 'markdown', 'mkd.markdown'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['scss'] }
+Plug 'tpope/vim-haml', { 'for': ['haml'] }
 
 call plug#end()
 
