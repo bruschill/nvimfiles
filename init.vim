@@ -44,6 +44,7 @@ Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'digitaltoad/vim-jade', { 'for': ['jade'] }
 Plug 'mxw/vim-jsx', { 'for': ['javascript'] }
+Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
 
 " go
 Plug 'fatih/vim-go', { 'for': ['go'] }
