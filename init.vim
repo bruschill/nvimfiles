@@ -1,8 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-" Plug 'Valloric/YouCompleteMe', { 'do': './install.py --gocode-completer' }
 Plug 'Shougo/deoplete.nvim'
+Plug 'carlitux/deoplete-ternjs'
 
 Plug 'xolox/vim-easytags'
 Plug 'xolox/vim-misc'
