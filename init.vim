@@ -19,6 +19,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
+Plug 'mhartington/oceanic-next'
 
 " FZF
 Plug 'junegunn/fzf.vim'
@@ -58,8 +59,9 @@ Plug 'tpope/vim-haml', { 'for': ['haml'] }
 
 call plug#end()
 
+set t_Co=256
+colorscheme OceanicNext
 set background=dark
-colorscheme solarized
 
 "general
 set mouse=""
