@@ -4,8 +4,9 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Shougo/deoplete.nvim'
 Plug 'carlitux/deoplete-ternjs'
 
-Plug 'xolox/vim-easytags'
-Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-easytags'
+" Plug 'xolox/vim-misc'
+Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
