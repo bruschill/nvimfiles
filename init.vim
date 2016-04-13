@@ -107,7 +107,7 @@ set nolist
 set completeopt-=preview
 
 "setting tags directory
-set tags=~/.nvim/tags
+set tags="~/.nvim/tags"
 
 set rtp+=/usr/local/opt/fzf
 
