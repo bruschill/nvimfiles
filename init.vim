@@ -59,13 +59,11 @@ Plug 'tpope/vim-haml', { 'for': ['haml'] }
 
 call plug#end()
 
-set t_Co=256
-colorscheme OceanicNext
+colorscheme solarized
 set background=dark
 
 "general
 set mouse=""
-set vb t_vb=
 set hidden
 set nowrap
 set cursorline
