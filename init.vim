@@ -19,7 +19,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
-Plug 'mhartington/oceanic-next'
 
 " FZF
 Plug 'junegunn/fzf.vim'
@@ -44,8 +43,6 @@ Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
 Plug 'moll/vim-node', { 'for': ['javascript'] }
 Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'digitaltoad/vim-jade', { 'for': ['jade'] }
-Plug 'mxw/vim-jsx', { 'for': ['javascript'] }
 Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
 
 " go
