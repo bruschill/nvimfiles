@@ -105,6 +105,7 @@ set wildignore+=*.swp,*~,._*
 set nolist
 
 set completeopt-=preview
+set completeopt+=noinsert,noselect
 
 "setting tags directory
 set tags="~/.nvim/tags"
