@@ -2,10 +2,9 @@ call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
 Plug 'Shougo/deoplete.nvim'
+Plug 'zchee/deoplete-go', { 'do': 'make' }
 Plug 'carlitux/deoplete-ternjs'
 
-" Plug 'xolox/vim-easytags'
-" Plug 'xolox/vim-misc'
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
@@ -60,6 +59,9 @@ Plug 'tpope/vim-haml', { 'for': ['haml'] }
 
 call plug#end()
 
+let g:python3_host_prog='/usr/local/bin/python3'
+let g:python3_host_skip_check=1
+
 colorscheme solarized
 set background=dark
 
@@ -104,6 +106,7 @@ set wildignore+=*.swp,*~,._*
 "listchars
 set nolist
 
+set completeopt+=noselect
 set completeopt-=preview
 
 "setting tags directory
