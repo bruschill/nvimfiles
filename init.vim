@@ -31,6 +31,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " FILETYPE-SPECIFIC
 " ruby
+Plug 'osyo-manga/vim-monster', { 'for': ['ruby', 'eruby'] }
 Plug 'tpope/vim-rbenv', { 'for': ['ruby', 'eruby'] }
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
 Plug 'tpope/vim-rails', { 'for': ['ruby', 'eruby'] }
@@ -106,7 +107,6 @@ set wildignore+=*.swp,*~,._*
 "listchars
 set nolist
 
-set completeopt+=noselect
 set completeopt-=preview
 
 "setting tags directory
