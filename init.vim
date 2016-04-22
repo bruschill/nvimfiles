@@ -2,8 +2,6 @@ call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
 Plug 'Shougo/deoplete.nvim'
-Plug 'zchee/deoplete-go', { 'do': 'make' }
-Plug 'carlitux/deoplete-ternjs'
 
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
@@ -30,27 +28,29 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " FILETYPE-SPECIFIC
 " ruby
-Plug 'osyo-manga/vim-monster', { 'for': ['ruby', 'eruby'] }
-Plug 'tpope/vim-rbenv', { 'for': ['ruby', 'eruby'] }
-Plug 'vim-ruby/vim-ruby', { 'for': ['ruby', 'eruby'] }
-Plug 'tpope/vim-rails', { 'for': ['ruby', 'eruby'] }
+Plug 'osyo-manga/vim-monster', { 'for': ['ruby'] }
+Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
+Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
+Plug 'tpope/vim-rails', { 'for': ['ruby'] }
 Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 
 " javascript
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install', 'for': ['javascript'] }
+Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript'] }
 Plug 'othree/yajs.vim', { 'for': ['javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
 Plug 'moll/vim-node', { 'for': ['javascript'] }
-Plug 'elzr/vim-json', { 'for': ['json', 'javascript'] }
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
+Plug 'elzr/vim-json', { 'for': ['json'] }
 Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
 
 " go
 Plug 'fatih/vim-go', { 'for': ['go'] }
+Plug 'zchee/deoplete-go', { 'do': 'make', 'for': ['go'] }
 
 " markup
-Plug 'othree/html5.vim', { 'for': ['html', 'javascript', 'eruby'] }
-Plug 'hail2u/vim-css3-syntax', { 'for': ['html', 'css', 'eruby'] }
+Plug 'othree/html5.vim', { 'for': ['html'] }
+Plug 'hail2u/vim-css3-syntax', { 'for': ['css'] }
 Plug 'plasticboy/vim-markdown', { 'for': ['mkd', 'markdown', 'mkd.markdown'] }
 Plug 'cakebaker/scss-syntax.vim', { 'for': ['scss'] }
 Plug 'tpope/vim-haml', { 'for': ['haml'] }
