@@ -28,7 +28,7 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " FILETYPE-SPECIFIC
 " ruby
-Plug 'osyo-manga/vim-monster', { 'for': ['ruby'] }
+Plug 'osyo-manga/vim-monster'
 Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
 Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
 Plug 'tpope/vim-rails', { 'for': ['ruby'] }
@@ -36,7 +36,7 @@ Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
 Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 
 " javascript
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install', 'for': ['javascript'] }
+Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript'] }
 Plug 'othree/yajs.vim', { 'for': ['javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
