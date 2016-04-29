@@ -3,13 +3,13 @@ call plug#begin('~/.config/nvim/plugged')
 " GENERAL
 Plug 'Shougo/deoplete.nvim'
 
-Plug 'janko-m/vim-test'
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
+Plug 'tomtom/tcomment_vim'
 Plug 'benekastah/neomake'
 
 " TESTING
@@ -42,7 +42,7 @@ Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
 
 " javascript
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'carlitux/deoplete-ternjs', { 'for': ['javascript'] }
+Plug 'carlitux/deoplete-ternjs'
 Plug 'othree/yajs.vim', { 'for': ['javascript'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
 Plug 'moll/vim-node', { 'for': ['javascript'] }
