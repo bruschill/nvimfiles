@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 " GENERAL
 Plug 'Shougo/deoplete.nvim'
 
+Plug 'janko-m/vim-test'
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
@@ -10,8 +11,12 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'benekastah/neomake'
-Plug 'tomtom/tcomment_vim'
-Plug 'regedarek/ZoomWin'
+
+" TESTING
+Plug 'kassio/neoterm'
+Plug 'janko-m/vim-test'
+
+" STATUS LINE
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
