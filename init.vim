@@ -53,6 +53,9 @@ Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
 Plug 'fatih/vim-go', { 'for': ['go'] }
 Plug 'zchee/deoplete-go', { 'do': 'make', 'for': ['go'] }
 
+" rust
+Plug 'rust-lang/rust.vim'
+
 " markup
 Plug 'othree/html5.vim', { 'for': ['html'] }
 Plug 'hail2u/vim-css3-syntax', { 'for': ['css'] }
