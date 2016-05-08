@@ -34,34 +34,34 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 " FILETYPE-SPECIFIC
 " ruby
 Plug 'osyo-manga/vim-monster'
-Plug 'tpope/vim-rbenv', { 'for': ['ruby'] }
-Plug 'vim-ruby/vim-ruby', { 'for': ['ruby'] }
-Plug 'tpope/vim-rails', { 'for': ['ruby'] }
-Plug 'Keithbsmiley/rspec.vim', { 'for': ['ruby'] }
-Plug 'sunaku/vim-ruby-minitest', { 'for': ['ruby'] }
+Plug 'tpope/vim-rbenv'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'Keithbsmiley/rspec.vim'
+Plug 'sunaku/vim-ruby-minitest'
 
 " javascript
-Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
+Plug 'marijnh/tern_for_vim'
 Plug 'carlitux/deoplete-ternjs'
-Plug 'othree/yajs.vim', { 'for': ['javascript'] }
-Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript'] }
-Plug 'moll/vim-node', { 'for': ['javascript'] }
-Plug 'elzr/vim-json', { 'for': ['json'] }
-Plug 'kchmck/vim-coffee-script', { 'for': ['coffee'] }
+Plug 'othree/yajs.vim'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'moll/vim-node'
+Plug 'elzr/vim-json'
+Plug 'kchmck/vim-coffee-script'
 
 " go
-Plug 'fatih/vim-go', { 'for': ['go'] }
-Plug 'zchee/deoplete-go', { 'do': 'make', 'for': ['go'] }
+Plug 'fatih/vim-go'
+Plug 'zchee/deoplete-go'
 
 " rust
 Plug 'rust-lang/rust.vim'
 
 " markup
-Plug 'othree/html5.vim', { 'for': ['html'] }
-Plug 'hail2u/vim-css3-syntax', { 'for': ['css'] }
-Plug 'plasticboy/vim-markdown', { 'for': ['mkd', 'markdown', 'mkd.markdown'] }
-Plug 'cakebaker/scss-syntax.vim', { 'for': ['scss'] }
-Plug 'tpope/vim-haml', { 'for': ['haml'] }
+Plug 'othree/html5.vim'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'plasticboy/vim-markdown'
+Plug 'cakebaker/scss-syntax.vim'
+Plug 'tpope/vim-haml'
 
 call plug#end()
 
