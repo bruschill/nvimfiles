@@ -10,7 +10,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'tomtom/tcomment_vim'
-Plug 'benekastah/neomake'
+" use ivalkeen's branch to place all markers at once
+" Plug 'benekastah/neomake'
+Plug 'ivalkeen/neomake', { 'branch': 'place-all-signs' }
 
 " TESTING
 Plug 'kassio/neoterm'
