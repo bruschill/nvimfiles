@@ -40,13 +40,14 @@ Plug 'Keithbsmiley/rspec.vim'
 Plug 'sunaku/vim-ruby-minitest'
 
 " javascript
-Plug 'marijnh/tern_for_vim'
-Plug 'othree/yajs.vim'
-Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'marijnh/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'othree/yajs.vim', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'gavocanov/vim-js-indent'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
 Plug 'kchmck/vim-coffee-script'
-Plug 'mxw/vim-jsx'
 
 " go
 Plug 'fatih/vim-go'
