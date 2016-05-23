@@ -46,6 +46,7 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
 Plug 'kchmck/vim-coffee-script'
+Plug 'mxw/vim-jsx'
 
 " go
 Plug 'fatih/vim-go'
