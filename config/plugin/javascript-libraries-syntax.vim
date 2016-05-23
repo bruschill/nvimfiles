@@ -1,1 +1,1 @@
-let g:used_javascript_libs='jquery,underscore,lo-dash,react,chai'
+let g:used_javascript_libs='jasmine,jquery,underscore,react,chai'
