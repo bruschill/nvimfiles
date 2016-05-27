@@ -14,9 +14,6 @@ Plug 'tomtom/tcomment_vim'
 " Plug 'benekastah/neomake'
 Plug 'ivalkeen/neomake', { 'branch': 'place-all-signs' }
 
-" TESTING
-Plug 'kassio/neoterm'
-
 " STATUS LINE
 Plug 'bling/vim-airline'| Plug 'vim-airline/vim-airline-themes'
 
@@ -43,7 +40,6 @@ Plug 'sunaku/vim-ruby-minitest'
 Plug 'marijnh/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'othree/yajs.vim', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'javascript.jsx'] }
-Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx'] }
 Plug 'gavocanov/vim-js-indent'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
@@ -122,8 +118,8 @@ set rtp+=/usr/local/opt/fzf
 set backupdir=~/.local/share/nvim/swap
 
 " deoplete
-call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete.py', [
-      \ {'sync': 1, 'name': '_deoplete', 'opts': {}, 'type': 'function'},
+call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete', [
+      \ {'sync': v:true, 'name': '_deoplete', 'opts': {}, 'type': 'function'},
      \ ])
 
 for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
