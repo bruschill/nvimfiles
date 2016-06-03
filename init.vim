@@ -37,9 +37,9 @@ Plug 'Keithbsmiley/rspec.vim'
 Plug 'sunaku/vim-ruby-minitest'
 
 " javascript
-Plug 'marijnh/tern_for_vim', { 'for': ['javascript', 'javascript.jsx'] }
-Plug 'othree/yajs.vim', { 'for': ['javascript', 'javascript.jsx'] }
-Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'javascript.jsx'] }
+Plug 'marijnh/tern_for_vim'
+Plug 'othree/yajs.vim'
+Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'gavocanov/vim-js-indent'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
