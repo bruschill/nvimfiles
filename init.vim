@@ -10,9 +10,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'tomtom/tcomment_vim'
-" use ivalkeen's branch to place all markers at once
-" Plug 'benekastah/neomake'
-Plug 'ivalkeen/neomake', { 'branch': 'place-all-signs' }
+
+" use personal fork with ivalkeen's place-all-markers changes
+Plug 'bruschill/neomake'
 
 " STATUS LINE
 Plug 'bling/vim-airline'| Plug 'vim-airline/vim-airline-themes'
