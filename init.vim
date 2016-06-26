@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-Plug 'Shougo/deoplete.nvim' | Plug 'osyo-manga/vim-monster' | Plug 'carlitux/deoplete-ternjs' | Plug 'zchee/deoplete-go'
+Plug 'Shougo/deoplete.nvim', { 'tag': '1.2' } | Plug 'osyo-manga/vim-monster' | Plug 'carlitux/deoplete-ternjs' | Plug 'zchee/deoplete-go'
 
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
@@ -60,8 +60,8 @@ Plug 'tpope/vim-haml'
 
 call plug#end()
 
-let g:python3_host_prog='/usr/local/bin/python3'
-let g:python3_host_skip_check=1
+let g:python_host_prog = '/usr/local/bin/python2'
+let g:python3_host_prog = '/usr/local/bin/python3'
 
 colorscheme solarized
 set background=dark
@@ -116,11 +116,6 @@ set tags="~/.nvim/tags"
 set rtp+=/usr/local/opt/fzf
 
 set backupdir=~/.local/share/nvim/swap
-
-" deoplete
-call remote#host#RegisterPlugin('python3', '/Users/bruschill/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete', [
-      \ {'sync': v:true, 'name': '_deoplete', 'opts': {}, 'type': 'function'},
-     \ ])
 
 for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
   exe 'source' f
