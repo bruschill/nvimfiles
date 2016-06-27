@@ -1,7 +1,10 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-Plug 'Shougo/deoplete.nvim', { 'tag': '1.2' } | Plug 'osyo-manga/vim-monster' | Plug 'carlitux/deoplete-ternjs' | Plug 'zchee/deoplete-go'
+Plug 'Shougo/deoplete.nvim'
+Plug 'osyo-manga/vim-monster'
+Plug 'carlitux/deoplete-ternjs'
+Plug 'zchee/deoplete-go'
 
 Plug 'blueyed/vim-gutentags'
 Plug 'tpope/vim-git'
