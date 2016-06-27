@@ -1,4 +1,4 @@
-let $FZF_DEFAULT_COMMAND = 'sift -l --git --binary-skip --no-color --exclude-path "node_modules" --targets .'
+let $FZF_DEFAULT_COMMAND = 'sift -l --git --binary-skip --no-color --exclude-path "node_modules" --exclude-path "vendor" --targets .'
 
 let g:fzf_layout = { 'down': '20%' }
 
