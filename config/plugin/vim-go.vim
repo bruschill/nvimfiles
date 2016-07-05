@@ -23,4 +23,4 @@ nnoremap <silent> <C-g>r :GoDeps<cr>
 nnoremap <silent> <C-g>b :GoBuild<cr>
 nnoremap <silent> <C-g>r :GoRun<cr>
 nnoremap <silent> <C-g>i :GoImports<cr>
-nnoremap <silent> <C-g>t :GoTest! -bench .<cr>
+nnoremap <silent> <C-g>t :GoTest!<cr>
