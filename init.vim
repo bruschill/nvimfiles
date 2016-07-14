@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'osyo-manga/vim-monster'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'zchee/deoplete-go'
@@ -18,7 +18,7 @@ Plug 'tomtom/tcomment_vim'
 Plug 'bruschill/neomake'
 
 " STATUS LINE
-Plug 'bling/vim-airline'| Plug 'vim-airline/vim-airline-themes'
+Plug 'bling/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
@@ -49,7 +49,7 @@ Plug 'elzr/vim-json'
 Plug 'kchmck/vim-coffee-script'
 
 " go
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " rust
 Plug 'rust-lang/rust.vim'
