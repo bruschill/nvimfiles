@@ -49,7 +49,7 @@ Plug 'elzr/vim-json'
 Plug 'kchmck/vim-coffee-script'
 
 " go
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go'
 
 " rust
 Plug 'rust-lang/rust.vim'
