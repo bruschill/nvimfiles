@@ -6,7 +6,7 @@ Plug 'osyo-manga/vim-monster'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'zchee/deoplete-go'
 
-Plug 'blueyed/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
@@ -14,8 +14,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'tomtom/tcomment_vim'
 
-" use personal fork with ivalkeen's place-all-markers changes
-Plug 'bruschill/neomake'
+Plug 'neomake/neomake'
 
 " STATUS LINE
 Plug 'bling/vim-airline' | Plug 'vim-airline/vim-airline-themes'
