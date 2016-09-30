@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'osyo-manga/vim-monster'
+Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'zchee/deoplete-go'
 
@@ -21,6 +21,7 @@ Plug 'bling/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
+Plug 'iCyMind/NeoSolarized'
 
 " FZF
 Plug 'junegunn/fzf.vim'
@@ -65,7 +66,7 @@ call plug#end()
 let g:python_host_prog = '/usr/local/bin/python2'
 let g:python3_host_prog = '/usr/local/bin/python3'
 
-colorscheme solarized
+colorscheme NeoSolarized
 set background=dark
 
 "general
