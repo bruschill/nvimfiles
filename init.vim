@@ -68,6 +68,7 @@ let g:python3_host_prog = '/usr/local/bin/python3'
 
 colorscheme NeoSolarized
 set background=dark
+set termguicolors
 
 "general
 set mouse=""
