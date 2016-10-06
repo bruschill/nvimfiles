@@ -21,7 +21,6 @@ Plug 'bling/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 
 " COLORS
 Plug 'altercation/vim-colors-solarized'
-Plug 'iCyMind/NeoSolarized'
 
 " FZF
 Plug 'junegunn/fzf.vim'
@@ -66,9 +65,8 @@ call plug#end()
 let g:python_host_prog = '/usr/local/bin/python2'
 let g:python3_host_prog = '/usr/local/bin/python3'
 
-colorscheme NeoSolarized
+colorscheme solarized
 set background=dark
-set termguicolors
 
 "general
 set mouse=""
