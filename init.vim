@@ -77,6 +77,7 @@ set switchbuf=useopen
 set backspace=indent,eol,start
 set timeout
 set timeoutlen=450
+set inccommand=nosplit
 
 "tab settings
 set ai
