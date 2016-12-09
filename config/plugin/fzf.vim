@@ -11,8 +11,6 @@ let g:fzf_layout = { 'down': '20%' }
 
 let g:fzf_nvim_statusline = 0
 
-let g:fzf_prefer_tmux = 1
-
 let g:fzf_action = {
   \ 'ctrl-s': 'split',
   \ 'ctrl-v': 'vsplit'
