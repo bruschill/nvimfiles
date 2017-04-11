@@ -121,6 +121,9 @@ set rtp+=/usr/local/opt/fzf
 
 set backupdir=~/.local/share/nvim/swap
 
+"make faster for jruby
+let g:ruby_path='/usr/bin/ruby'
+
 for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
   exe 'source' f
 endfor
