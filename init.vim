@@ -4,7 +4,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs'
-Plug 'zchee/deoplete-go'
 
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-git'
@@ -47,12 +46,6 @@ Plug 'gavocanov/vim-js-indent'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
 Plug 'kchmck/vim-coffee-script'
-
-" go
-Plug 'fatih/vim-go'
-
-" rust
-Plug 'rust-lang/rust.vim'
 
 " markup
 Plug 'othree/html5.vim'
