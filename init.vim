@@ -14,7 +14,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tomtom/tcomment_vim'
 
-Plug 'neomake/neomake'
+Plug 'w0rp/ale'
 
 " STATUS LINE
 Plug 'bling/vim-airline' | Plug 'vim-airline/vim-airline-themes'
