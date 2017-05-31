@@ -38,6 +38,10 @@ Plug 'tpope/vim-rails'
 Plug 'Keithbsmiley/rspec.vim'
 Plug 'sunaku/vim-ruby-minitest'
 
+" elixir
+Plug 'elixir-lang/vim-elixir'
+Plug 'slashmili/alchemist.vim'
+
 " javascript
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'othree/yajs.vim'
