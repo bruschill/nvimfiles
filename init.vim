@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs'
+Plug 'zchee/deoplete-go'
 
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-git'
@@ -41,6 +42,9 @@ Plug 'sunaku/vim-ruby-minitest'
 " elixir
 Plug 'elixir-lang/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+
+" go
+Plug 'fatih/vim-go'
 
 " javascript
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
