@@ -50,6 +50,7 @@ Plug 'fatih/vim-go'
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'othree/yajs.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'posva/vim-vue'
 Plug 'gavocanov/vim-js-indent'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
@@ -132,3 +133,5 @@ endfor
 for f in split(glob('~/.config/nvim/config/plugin/*.vim'), '\n')
   exe 'source' f
 endfor
+
+let g:vue_disable_pre_processors=1
