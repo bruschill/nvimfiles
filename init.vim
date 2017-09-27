@@ -81,6 +81,7 @@ set backspace=indent,eol,start
 set timeout
 set timeoutlen=450
 set inccommand=nosplit
+set clipboard+=unnamedplus
 
 "tab settings
 set ai

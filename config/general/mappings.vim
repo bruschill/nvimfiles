@@ -14,7 +14,6 @@ nmap <silent> <leader>bf :bf<cr>
 nmap <silent> <leader>bu :bun<cr>
 nmap <silent> <leader>bd :bd<cr>
 
-
 " tab manipulation
 nmap <leader>to :tabnew<cr>
 nmap <silent> <leader>tm :MoveTabRight<cr>
@@ -24,6 +23,17 @@ nmap <leader>tp :tabp<cr>
 nmap <leader>tl :tabl<cr>
 nmap <leader>tf :tabfir<cr>
 nmap <leader>tc :tabc<cr>
+
+" copy/paste
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
 
 fu! MoveTab(direction)
   let move_dir = ''
