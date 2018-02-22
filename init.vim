@@ -48,15 +48,15 @@ Plug 'fatih/vim-go'
 
 " javascript
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
-Plug 'othree/yajs.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'othree/es.next.syntax.vim'
 Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'posva/vim-vue'
-Plug 'gavocanov/vim-js-indent'
+Plug 'mxw/vim-jsx'
 Plug 'moll/vim-node'
 Plug 'elzr/vim-json'
-Plug 'kchmck/vim-coffee-script'
 
 " markup
+Plug 'mattn/emmet-vim'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'plasticboy/vim-markdown'
