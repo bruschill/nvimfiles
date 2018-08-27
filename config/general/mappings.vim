@@ -1,3 +1,6 @@
+"unbind f1
+:nmap <F1> <nop>
+
 "remap mapleader
 let mapleader=","
 
