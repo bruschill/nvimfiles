@@ -15,6 +15,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-dispatch'
 Plug 'tomtom/tcomment_vim'
 
 Plug 'w0rp/ale'
@@ -40,6 +41,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'Keithbsmiley/rspec.vim'
 Plug 'sunaku/vim-ruby-minitest'
+Plug 'thoughtbot/vim-rspec'
 
 " elixir
 Plug 'elixir-lang/vim-elixir'
