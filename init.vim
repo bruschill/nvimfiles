@@ -1,8 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " GENERAL
-Plug 'Shougo/deoplete.nvim', { 'commit': 'e154f3f1', 'do': ':UpdateRemotePlugins' }
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'Shougo/deoplete.nvim', { 'commit': 'e154f3f1', 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'zchee/deoplete-go'
