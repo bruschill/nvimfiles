@@ -7,8 +7,8 @@ Plug 'fishbullet/deoplete-ruby'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'zchee/deoplete-go'
 
-Plug 'ludovicchabant/vim-gutentags', { 'tag': 'v1.0.0' }
-" Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags', { 'tag': 'v1.0.0' }
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
