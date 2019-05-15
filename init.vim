@@ -40,6 +40,7 @@ Plug 'tpope/vim-rails'
 Plug 'Keithbsmiley/rspec.vim'
 Plug 'sunaku/vim-ruby-minitest'
 Plug 'thoughtbot/vim-rspec'
+Plug 'slim-template/vim-slim'
 
 " elixir
 Plug 'elixir-lang/vim-elixir'
@@ -136,5 +137,3 @@ endfor
 for f in split(glob('~/.config/nvim/config/plugin/*.vim'), '\n')
   exe 'source' f
 endfor
-
-let g:vue_disable_pre_processors=1
