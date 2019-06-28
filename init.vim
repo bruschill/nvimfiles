@@ -4,6 +4,11 @@ call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'bling/vim-airline'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'w0rp/ale'
 
 "fzf
 Plug 'junegunn/fzf.vim'
@@ -13,8 +18,15 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
+"ruby
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'keith/rspec.vim'
+
 "javascript
 Plug 'othree/yajs.vim'
+
+
 
 call plug#end()
 
