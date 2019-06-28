@@ -2,6 +2,8 @@ call plug#begin()
 
 "general
 Plug 'arcticicestudio/nord-vim'
+Plug 'bling/vim-airline'
+Plug 'ludovicchabant/vim-gutentags'
 
 "fzf
 Plug 'junegunn/fzf.vim'
@@ -18,7 +20,7 @@ Plug 'mxw/vim-jsx'
 call plug#end()
 
 "colors
-set background=dark                                                     " Set colorscheme background color
+set background=dark
 set termguicolors 
 colorscheme nord
 

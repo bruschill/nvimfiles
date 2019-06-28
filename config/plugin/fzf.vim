@@ -1,4 +1,4 @@
-let $FZF_DEFAULT_COMMAND = "rg --glob '!node_modules/*' --files --no-ignore-vcs --hidden"
+let $FZF_DEFAULT_COMMAND = "rg --files"
 
 let $FZF_CTRL_R_OPTS='--no-sort'
 let $FZF_DEFAULT_OPTS='
