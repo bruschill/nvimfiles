@@ -1,14 +1,26 @@
 call plug#begin()
 
-"FZF
+"general
+Plug 'arcticicestudio/nord-vim'
+
+"fzf
 Plug 'junegunn/fzf.vim'
 
-"TMUX
+"tmux
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tmux-plugins/vim-tmux'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
+"javascript
+Plug 'othree/yajs.vim'
+Plug 'mxw/vim-jsx'
+
 call plug#end()
+
+"colors
+set background=dark                                                     " Set colorscheme background color
+set termguicolors 
+colorscheme nord
 
 "general
 set mouse=""
