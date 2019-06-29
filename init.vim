@@ -3,11 +3,14 @@ call plug#begin()
 "general
 Plug 'arcticicestudio/nord-vim'
 Plug 'bling/vim-airline'
-Plug 'ludovicchabant/vim-gutentags'
+
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 
 "fzf
@@ -25,8 +28,6 @@ Plug 'keith/rspec.vim'
 
 "javascript
 Plug 'othree/yajs.vim'
-
-
 
 call plug#end()
 
@@ -66,21 +67,12 @@ set relativenumber
 set ruler
 set numberwidth=2
 
-"wildmenu
-"set wildmenu
-"set matchtime=3
-"set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
-"set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
-"set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
-"set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
-"set wildignore+=*.swp,*~,._*
-
 "listchars
 set nolist
 
-"not sure???
-"set completeopt-=preview
-"set completeopt+=noinsert,noselect
+"setting python
+let g:python_host_prog = '/usr/local/bin/python2'
+let g:python3_host_prog = '/usr/local/bin/python3'
 
 "setting tags directory
 set tags="~/.nvim/tags"

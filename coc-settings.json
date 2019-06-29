@@ -1,0 +1,4 @@
+{
+  "solargraph.useBundler": true,
+  "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler"
+}
