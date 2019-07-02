@@ -1,4 +1,5 @@
 {
+  "tsserver.npm": "/Users/bruschill/.nvm/versions/node/v12.5.0/bin/npm",
   "solargraph.useBundler": true,
   "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler",
 
