@@ -1,4 +1,11 @@
 {
   "solargraph.useBundler": true,
-  "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler"
+  "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler",
+
+  "languageserver": {
+    "elixirLS": {
+      "command": "/Users/bruschill/Documents/code/elixir-ls/language_server.sh",
+      "filetypes": ["elixir", "eelixir"]
+    }
+  }
 }

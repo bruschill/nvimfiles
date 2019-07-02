@@ -26,6 +26,9 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'keith/rspec.vim'
 
+"elixir
+Plug 'elixir-editors/vim-elixir'
+
 "javascript
 Plug 'othree/yajs.vim'
 
