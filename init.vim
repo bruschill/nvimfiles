@@ -73,6 +73,14 @@ set numberwidth=2
 "listchars
 set nolist
 
+" necessary for language servers
+" don't give |ins-completion-menu| messages.
+set shortmess+=c
+
+set updatetime=300
+set nobackup
+set nowritebackup
+
 "setting python
 let g:python_host_prog = '/usr/local/bin/python2'
 let g:python3_host_prog = '/usr/local/bin/python3'
@@ -82,8 +90,6 @@ set tags="~/.nvim/tags"
 
 "setting fzf directory
 set rtp+=/usr/local/opt/fzf
-
-set backupdir=~/.config/nvim/swap
 
 for f in split(glob('~/.config/nvim/config/general/*.vim'), '\n')
   exe 'source' f
