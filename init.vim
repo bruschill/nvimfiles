@@ -9,7 +9,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', { 'branch': 'release', 'do': ':CocUpdateSync' }
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 
