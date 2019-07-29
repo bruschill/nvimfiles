@@ -1,5 +1,11 @@
 {
   "tsserver.npm": "/Users/bruschill/.nvm/versions/node/v12.5.0/bin/npm",
   "solargraph.useBundler": true,
-  "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler"
+  "solargraph.bundlerPath": "/Users/bruschill/.rbenv/shims/bundler",
+  "languageserver": {
+     "elixirLS": {
+      "command": "/Users/bruschill/Documents/code/elixir/elixir-ls/release/language_server.sh",
+      "filetypes": ["elixir", "eelixir"]
+     }
+  }
 }
