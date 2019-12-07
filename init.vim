@@ -35,6 +35,7 @@ Plug 'kchmck/vim-coffee-script'
 
 "javascript
 Plug 'othree/yajs.vim'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
