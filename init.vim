@@ -15,7 +15,7 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 
 "fzf
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf.vim', { 'do': { -> fzf#install() } }
 
 "tmux
 Plug 'christoomey/vim-tmux-navigator'
