@@ -10,8 +10,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 
-Plug 'neoclide/coc.nvim', { 'branch': 'release', 'do': ':CocUpdateSync' }
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'neoclide/coc.nvim', { 'branch': 'release', 'do': ':CocUpdateSync' }
+" Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
 
 "fzf
@@ -28,14 +28,14 @@ Plug 'tpope/vim-rails'
 Plug 'keith/rspec.vim'
 
 "elixir
-Plug 'elixir-editors/vim-elixir'
+" Plug 'elixir-editors/vim-elixir'
 
 "coffeescript
-Plug 'kchmck/vim-coffee-script'
+" Plug 'kchmck/vim-coffee-script'
 
 "javascript
-Plug 'othree/yajs.vim'
-Plug 'mxw/vim-jsx'
+" Plug 'othree/yajs.vim'
+" Plug 'mxw/vim-jsx'
 
 call plug#end()
 
